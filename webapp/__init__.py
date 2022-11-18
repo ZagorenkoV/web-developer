@@ -1,5 +1,5 @@
-from flask import Flask, render_template, flash, redirect, url_for
-from flask_login import LoginManager, current_user, login_required
+from flask import Flask
+from flask_login import LoginManager
 from flask_migrate import Migrate
 
 from webapp.db import db
