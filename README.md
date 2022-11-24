@@ -23,7 +23,7 @@
 1. Клонируйте репозиторий с GitHub
 2. Создайте виртуальное окружение
 3. Установите зависимости `pip install -r requirements.txt`
-4. Для установки и работы с Redis используйте Linux. Если у вас MacOS используйте - homebrew (инструкция). Если Windows - используйте Windows-подсистему для Linus (WSL)
+4. Для установки и работы с Redis используйте Linux. Если у вас MacOS используйте - [*homebrew*](https://brew.sh/index_ru) ([*инструкция*](https://medium.com/@djamaldg/install-use-redis-on-macos-sierra-432ab426640e)). Если Windows - используйте [*Windows-подсистему для Linus (WSL)*](https://www.comss.ru/page.php?id=4897)
 
 ### Запуск проекта
 * Для запуска проекта войдите в виртуальное окружение.
