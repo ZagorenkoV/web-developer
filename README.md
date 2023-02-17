@@ -1,6 +1,35 @@
-# Новостной сайт с прогнозом погоды
+# News site with weather forecast
 
-Новостной сайт с прогнозом погоды в Москве.
+### Technology stack
+
+* Python
+* Flask
+* SQLAlchemy
+* Celery
+* Redis
+* BS4
+
+### Project Functionality
+
+- Parses news from Habr site and displays it on its page
+- It shows the weather in Moscow. For the forecast API from World Weather Online was used.
+- There are two admin sections, for standard user and admin
+- news comments are include
+- It is possible to set a suitable timing for news updates on the site.
+
+
+### Installation
+1. Clone the repository from GitHub
+2. Create a virtual environment
+3. Install the pip install -r requirements.txt dependencies
+4. Use Linux to install and work with Redis. If you use MacOS use - [*homebrew*](https://brew.sh/index_ru) ([*инструкция*](https://medium.com/@djamaldg/install-use-redis-on-macos-sierra-432ab426640e)). For Windows - [*Windows-подсистему для Linus (WSL)*](https://www.comss.ru/page.php?id=4897)
+
+### Starting the project
+* To start your project, enter /env.
+* At the command console or IDLE start `run.bat`
+* P.S Don't forget to add the config.py file to the project root, and add Weather_API_KEY, Weather_URL values to it, and run news parsing before that.
+
+# Новостной сайт с прогнозом погоды
 
 ### Используемый стек технологий
 
